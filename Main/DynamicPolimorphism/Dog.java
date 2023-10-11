@@ -1,0 +1,9 @@
+package Main.DynamicPolimorphism;
+
+public class Dog extends Animal{
+
+    @Override
+    public void speak() {
+        System.out.println("dogs goes bark");
+    }
+}
